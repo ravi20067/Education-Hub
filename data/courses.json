@@ -327,50 +327,150 @@
             ]
         },
         {
-            "id": "course2",
-            "name": "Python",
+            "id": "course1",
+            "name": "C Programming",
             "chapters": [
                 {
                     "id": "chapter1",
-                    "name": "Introduction to Python",
+                    "name": "Introduction",
                     "miniChapters": [
                         {
                             "id": "mini1",
-                            "name": "Python Basics",
-                            "videos": ["https://www.youtube.com/embed/kqtD5dpn9C8"],
-                            "pdfs": ["https://docs.google.com/document/d/567890abcdef1234/preview"],
-                            "description": "Introduction to Python programming."
-                        },
-                        {
-                            "id": "mini2",
-                            "name": "Variables and Data Types",
-                            "videos": ["https://www.youtube.com/embed/3nLUY1YgUBo"],
-                            "pdfs": ["https://docs.google.com/document/d/0987654321abcdef/preview"],
-                            "description": "Understanding variables and data types in Python."
+                            "name": "Introduction",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=0&end=87"],
+                            "pdfs": ["https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"],
+                            "description": "This section introduces C programming, its history, and fundamental concepts."
                         }
                     ]
                 },
                 {
                     "id": "chapter2",
-                    "name": "Control Structures",
+                    "name": "Installation & Setup",
                     "miniChapters": [
                         {
-                            "id": "mini1",
-                            "name": "If-Else Statements",
-                            "videos": ["https://www.youtube.com/embed/0ZvaFQ6wMLg"],
-                            "pdfs": ["https://docs.google.com/document/d/abcdef0987654321/preview"],
-                            "description": "Using if-else statements in Python."
+                            "id": "mini2",
+                            "name": "VS Code Installation",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=87&end=271"],
+                            "pdfs": ["https://drive.google.com/file/d/1BG3ybTLFVKFjTyYY55aCbxNqE92c70Gx/preview"],
+                            "description": "Guide to installing VS Code and setting up for C programming."
                         },
                         {
-                            "id": "mini2",
-                            "name": "Loops",
-                            "videos": ["https://www.youtube.com/embed/t8pPdKYpowI"],
-                            "pdfs": ["https://docs.google.com/document/d/1234abcdef567890/preview"],
-                            "description": "Understanding loops in Python."
+                            "id": "mini3",
+                            "name": "Compiler + Setup",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=271&end=612"],
+                            "pdfs": ["https://drive.google.com/file/d/1sjOPF0-hRg16ZthsCAkqA3f78wkwzVUa/preview"],
+                            "description": "Setting up a C compiler and configuring the development environment."
+                        }
+                    ]
+                },
+                {
+                    "id": "chapter3",
+                    "name": "Fundamentals of C",
+                    "miniChapters": [
+                        {
+                            "id": "mini4",
+                            "name": "Variables, Data Types & I/O",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=612&end=3114"],
+                            "pdfs": ["https://drive.google.com/file/d/1sjOPF0-hRg16ZthsCAkqA3f78wkwzVUa/preview"],
+                            "description": "Understanding variables, data types, and input/output operations in C."
+                        },
+                        {
+                            "id": "mini5",
+                            "name": "Instructions & Operators",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=3114&end=7275"],
+                            "pdfs": ["https://drive.google.com/file/d/1jsMv-VAC6K4wbl9FOKQUxAMLwAs-ArM-/preview"],
+                            "description": "Exploring C instructions, arithmetic, logical, and bitwise operators."
+                        }
+                    ]
+                },
+                {
+                    "id": "chapter4",
+                    "name": "Control Flow",
+                    "miniChapters": [
+                        {
+                            "id": "mini6",
+                            "name": "Conditional Statements",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=7275&end=9936"],
+                            "pdfs": ["https://drive.google.com/file/d/1NROR6CGkxsfsWu48OR-gWyPrdTiIG6T0/preview"],
+                            "description": "Understanding if-else statements, switch-case, and logical conditions."
+                        },
+                        {
+                            "id": "mini7",
+                            "name": "Loop Control Statements",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=9936&end=13894"],
+                            "pdfs": ["https://drive.google.com/file/d/1cSV_Ykj25EVqfFO65FeCC8kQ7-NhpFVR/preview"],
+                            "description": "Working with loops: for, while, and do-while."
+                        }
+                    ]
+                },
+                {
+                    "id": "chapter5",
+                    "name": "Advanced Concepts",
+                    "miniChapters": [
+                        {
+                            "id": "mini8",
+                            "name": "Functions & Recursion",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=13894&end=19290"],
+                            "pdfs": ["https://drive.google.com/file/d/1I-7ygqAqpWO90GyBDsDHaMtE33HJuBTt/preview"],
+                            "description": "Deep dive into functions, recursion, and modular programming."
+                        },
+                        {
+                            "id": "mini9",
+                            "name": "Pointers",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=19290&end=22730"],
+                            "pdfs": ["https://drive.google.com/file/d/1NzsUNa8Vcr5wVejluBHWGCYn3jRzo_0s/preview"],
+                            "description": "Understanding pointers, memory addresses, and dynamic memory allocation."
+                        }
+                    ]
+                },
+                {
+                    "id": "chapter6",
+                    "name": "Data Structures",
+                    "miniChapters": [
+                        {
+                            "id": "mini10",
+                            "name": "Arrays",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=22730&end=26549"],
+                            "pdfs": ["https://drive.google.com/file/d/19iWF36BXQnsV_2xgO6n7cfn7j9kJxbXr/preview"],
+                            "description": "Working with arrays: declaration, initialization, and operations."
+                        },
+                        {
+                            "id": "mini11",
+                            "name": "Strings",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=26549&end=30380"],
+                            "pdfs": ["https://drive.google.com/file/d/1ts6NSAoLOl5sT3wfkTOpbdISwFQIAb33/preview"],
+                            "description": "String handling functions and operations in C."
+                        },
+                        {
+                            "id": "mini12",
+                            "name": "Structures",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=30380&end=33735"],
+                            "pdfs": [],
+                            "description": "Understanding structures and their importance in C programming."
+                        }
+                    ]
+                },
+                {
+                    "id": "chapter7",
+                    "name": "File Handling & Memory Management",
+                    "miniChapters": [
+                        {
+                            "id": "mini13",
+                            "name": "File I/O",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=33735&end=36300"],
+                            "pdfs": [],
+                            "description": "Reading, writing, and manipulating files in C."
+                        },
+                        {
+                            "id": "mini14",
+                            "name": "Dynamic Memory Allocation",
+                            "videos": ["https://www.youtube.com/embed/irqbmMNs2Bo?start=36300"],
+                            "pdfs": [],
+                            "description": "Allocating and freeing memory dynamically using malloc, calloc, and free."
                         }
                     ]
                 }
             ]
-        }
+        }        
     ]
 }
