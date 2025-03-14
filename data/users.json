@@ -1,0 +1,22 @@
+[
+    {
+        "id": "admin",
+        "password": "admin123",
+        "role": "admin"
+    },
+    {
+        "id": "1@gmail.com",
+        "password": "123",
+        "role": "user"
+    },
+    {
+        "id": "kumarr3829@gmail.com",
+        "password": "Ananya0702@0601@12",
+        "role": "user"
+    },
+    {
+        "id": "user2",
+        "password": "userpass2",
+        "role": "user"
+    }
+]

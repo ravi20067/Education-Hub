@@ -1,0 +1,52 @@
+/* Gradient background for dark mode */
+.bg-gradient {
+    background: linear-gradient(135deg, #1c1c1c, #343a40);
+}
+
+/* Glassmorphism effect for cards */
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glassmorphism:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+}
+
+/* Button hover effects */
+.btn-primary, .btn-info {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.btn-info:hover {
+    background-color: #17a2b8;
+    transform: translateY(-3px);
+}
+
+/* Text shadow for headings */
+.text-shadow {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer styles */
+footer {
+    background: linear-gradient(135deg, #1c1c1c, #2d2d2d);
+    border-top: 1px solid #333;
+}
+
+.social-links a {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+    color: #007bff;
+}

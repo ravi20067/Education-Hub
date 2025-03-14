@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/user-dashboard.css">
+</head>
+<body class="bg-dark text-light">
+
+<!-- Header -->
+<header class="d-flex justify-content-between align-items-center p-2 bg-dark border-bottom">
+    <h3 class="mb-0 text-info fw-bold">Educational Hub</h3>
+    <div>
+        <a href="user.html" class="text-danger text-decoration-none">
+            <i class="bi bi-box-arrow-right"></i> Logout
+        </a>
+    </div>
+</header>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-3">
+    <div class="container">
+        <span class="navbar-brand">Courses</span>
+        <ul class="navbar-nav"></ul> <!-- Courses will be added here dynamically -->
+    </div>
+</nav>
+
+<!-- Main Container -->
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar for Chapters -->
+        <aside class="col-md-2 bg-secondary p-3 text-light">
+            <h5>List of Chapters</h5>
+            <ul class="sidebar-chapters nav flex-column"></ul> <!-- Chapters will be added here dynamically -->
+        </aside>
+
+        <!-- Main Content Area -->
+        <div class="col-md-7 col-12 mb-3">
+            <!-- Video Container (Initially Placeholder) -->
+            <div class="mb-3 glassmorphism p-3 rounded">
+                <h5>Video Player</h5>
+                <div class="video-container text-center">
+                    <img src="assets/img/poster.webp" class="img-fluid rounded shadow-lg" alt="Select a chapter to watch videos">
+                </div>
+            </div>
+
+            <!-- Description -->
+            <div class="glassmorphism p-3 rounded mb-3">
+                <h5>Description</h5>
+                <div class="description-box"><p>Select a chapter to view content.</p></div>
+            </div>
+        </div>
+
+        <!-- PDF Viewer -->
+        <aside class="col-md-3">
+            <div class="glassmorphism p-3 rounded">
+                <h5>PDF Viewer</h5>
+                <embed type="application/pdf" width="100%" height="500px">
+            </div>
+        </aside>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center bg-secondary text-light py-2 mt-3">
+    <p>&copy; 2025 Your Website Name. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/user-dashboard.js"></script>
+</body>
+</html>

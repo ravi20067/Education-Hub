@@ -1,0 +1,37 @@
+/* Background gradient for dark mode */
+body {
+    background: linear-gradient(135deg, #1c1c1c, #343a40);
+}
+
+/* Glassmorphism effect */
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 400px;
+}
+
+/* Text styling */
+.text-shadow {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Input and button styles */
+.form-control, .btn {
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+/* Link hover effect */
+a.text-info:hover, a.text-warning:hover {
+    text-decoration: underline;
+}

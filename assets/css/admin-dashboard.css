@@ -1,0 +1,59 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #1e1e2d;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link:hover {
+    background: #29293d;
+    border-radius: 5px;
+}
+
+.content {
+    margin-left: 270px;
+    width: calc(100% - 270px);
+    padding: 40px;
+    background: #181818;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    color: white;
+}
+
+.table th {
+    background: #29293d;
+}
+
+.table td {
+    background: #1e1e2d;
+}
+
+.btn {
+    margin-right: 5px;
+}

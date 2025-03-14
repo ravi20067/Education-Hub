@@ -1,0 +1,20 @@
+/* Button Styling */
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+    padding: 8px 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+/* Smoother Video Zoom Effect */
+.video-container iframe {
+    transition: transform 0.2s ease-in-out; /* Reduced duration */
+}
+
+.video-container iframe:hover {
+    transform: scale(1.05); /* Slightly increased zoom */
+}
