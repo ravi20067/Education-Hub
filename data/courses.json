@@ -485,7 +485,7 @@
                                     "name": "1",
                                     "videos": ["https://drive.google.com/file/d/1kHiJh6tTT82yKCXBAeqtJXKH3hoYDFqO/preview"],
                                     "pdfs": ["https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"],
-                                    "description": "This section introduces C programming, its history, and fundamental concepts."
+                                    "description": "1 --This section introduces C programming, its history, and fundamental concepts."
                                 },
                                 {
                                     "id": "mini2",
@@ -496,7 +496,7 @@
                                     "pdfs": [
                                         "https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"
                                     ],
-                                    "description": "This section introduces C programming, its history, and fundamental concepts."
+                                    "description": "2 --This section introduces C programming, its history, and fundamental concepts."
                                 },                                
                                 {
                                     "id": "mini2",
@@ -507,7 +507,7 @@
                                     "pdfs": [
                                         "https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"
                                     ],
-                                    "description": "This section introduces C programming, its history, and fundamental concepts."
+                                    "description": "3---This section introduces C programming, its history, and fundamental concepts."
                                 },
                                 {
                                     "id": "mini2",
@@ -518,7 +518,7 @@
                                     "pdfs": [
                                         "https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"
                                     ],
-                                    "description": "This section introduces C programming, its history, and fundamental concepts."
+                                    "description": "4-- This section introduces C programming, its history, and fundamental concepts."
                                 },
                                 {
                                     "id": "mini2",
@@ -529,7 +529,7 @@
                                     "pdfs": [
                                         "https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"
                                     ],
-                                    "description": "This section introduces C programming, its history, and fundamental concepts."
+                                    "description": "5--- This section introduces C programming, its history, and fundamental concepts."
                                 },
                                 {
                                     "id": "mini2",
@@ -540,7 +540,7 @@
                                     "pdfs": [
                                         "https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"
                                     ],
-                                    "description": "This section introduces C programming, its history, and fundamental concepts."
+                                    "description": "6---This section introduces C programming, its history, and fundamental concepts."
                                 },
                                 {
                                     "id": "mini2",
@@ -551,7 +551,7 @@
                                     "pdfs": [
                                         "https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"
                                     ],
-                                    "description": "This section introduces C programming, its history, and fundamental concepts."
+                                    "description": "7-- This section introduces C programming, its history, and fundamental concepts."
                                 },
                                 {
                                     "id": "mini2",
@@ -562,7 +562,7 @@
                                     "pdfs": [
                                         "https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"
                                     ],
-                                    "description": "This section introduces C programming, its history, and fundamental concepts."
+                                    "description": "8-- This section introduces C programming, its history, and fundamental concepts."
                                 },
                                 {
                                     "id": "mini2",
@@ -573,7 +573,7 @@
                                     "pdfs": [
                                         "https://drive.google.com/file/d/1vcwggs0_rWh89WC1Fg3pZ6hUYLWqU9Eg/preview"
                                     ],
-                                    "description": "This section introduces C programming, its history, and fundamental concepts."
+                                    "description": "9-- This section introduces C programming, its history, and fundamental concepts."
                                 }                                                                                                                                                                                             
                             ]
                         
