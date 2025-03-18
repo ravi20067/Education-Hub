@@ -469,14 +469,16 @@
                             "description": "Allocating and freeing memory dynamically using malloc, calloc, and free."
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "id": "course2",
+            "name": "Linux",
+            "chapters": [
                 {
-                    "id": "course3",
-                    "name": "Linu",
-                    "chapters": [
-                        {
-                            "id": "chapter1",
-                            "name": "Online class",
+                    "id": "chapter1",
+                    "name": "Online class",
                             "miniChapters": [
                                 {
                                     "id": "mini1",
@@ -574,8 +576,7 @@
                                     "description": "This section introduces C programming, its history, and fundamental concepts."
                                 }                                                                                                                                                                                             
                             ]
-                        }
-                    ]
+                        
                 }
             ]
         }        
